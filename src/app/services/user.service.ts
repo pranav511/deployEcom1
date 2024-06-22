@@ -12,7 +12,7 @@ export class UserService {
   constructor(private http:HttpClient,private route:Router) { }
 
   SignUp(data: SignUp) {
-    this.http.post('http://localhost:3000/users', data, { observe: 'response' }).
+    this.http.post('https://node-ecommerce1.onrender.com/users', data, { observe: 'response' }).
       subscribe((result) => {
         //this.isSellerLoggedIn.next(true);
         localStorage.setItem('user', JSON.stringify(result.body));
@@ -21,7 +21,7 @@ export class UserService {
       });
   }//
   Login(data:Login){
-    this.http.get<SignUp[]>(`http://localhost:3000/users?email=${data.email}&password=${data.password}`,{observe:'response'}).
+    this.http.get<SignUp[]>(`https://node-ecommerce1.onrender.com/users?email=${data.email}&password=${data.password}`,{observe:'response'}).
     subscribe((result)=>{
       if(result && result.body && result.body.length){
         this.isLoginError.emit(false);

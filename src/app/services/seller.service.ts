@@ -12,7 +12,7 @@ export class SellerService {
   constructor(private http: HttpClient, private route: Router) { }
 
   userSignUp(data: SignUp) {
-    this.http.post('http://localhost:3000/sellers', data, { observe: 'response' }).
+    this.http.post('https://node-ecommerce1.onrender.com/sellers', data, { observe: 'response' }).
       subscribe((result) => {
         this.isSellerLoggedIn.next(true);
         localStorage.setItem('seller', JSON.stringify(result.body));
@@ -34,7 +34,7 @@ export class SellerService {
   userLogin(data:Login){
     // console.log(data.email);
     // console.log(data.password);
-    this.http.get(`http://localhost:3000/sellers?email=${data.email}&password=${data.password}`,
+    this.http.get(`https://node-ecommerce1.onrender.com/sellers?email=${data.email}&password=${data.password}`,
     {observe:'response'}).
     subscribe((result:any)=>{
       // console.warn(result);

@@ -10,35 +10,35 @@ export class ProductService {
   constructor(private http: HttpClient) { }
 
   addProduct(data: Product) {
-    return this.http.post('http://localhost:3000/products', data);
+    return this.http.post('https://node-ecommerce1.onrender.com/products', data);
   }//
   productList() {
-    return this.http.get<Product[]>('http://localhost:3000/products')
+    return this.http.get<Product[]>('https://node-ecommerce1.onrender.com/products')
   }//
   deleteProduct(id: number) {
-    return this.http.delete(`http://localhost:3000/products/${id}`)
+    return this.http.delete(`https://node-ecommerce1.onrender.com/products/${id}`)
   }//
 
   getProduct(id: string) {
-    return this.http.get<Product>(`http://localhost:3000/products/${id}`)
+    return this.http.get<Product>(`https://node-ecommerce1.onrender.com/products/${id}`)
   }//
 
   updateProduct(product: Product) {
-    return this.http.put(`http://localhost:3000/products/${product.id}`, product);
+    return this.http.put(`https://node-ecommerce1.onrender.com/products/${product.id}`, product);
   }//
 //-------------------------23-4-24----------------
   
   papularProduct() {
-    return this.http.get<Product[]>(`http://localhost:3000/products?_limit=10`);
+    return this.http.get<Product[]>(`https://node-ecommerce1.onrender.com/products?_limit=10`);
   }//
   trendyProduct() {
-    return this.http.get<Product[]>(`http://localhost:3000/products?_limit=100`);
+    return this.http.get<Product[]>(`https://node-ecommerce1.onrender.com/products?_limit=100`);
   }//
   searchProduct(querry: string) {
-    return this.http.get<Product[]>(`http://localhost:3000/products?q=${querry}`);
+    return this.http.get<Product[]>(`https://node-ecommerce1.onrender.com/products?q=${querry}`);
   }
   searchProducts(querry: string) {
-    return this.http.get<Product[]>(`http://localhost:3000/products?q=${querry}`);
+    return this.http.get<Product[]>(`https://node-ecommerce1.onrender.com/products?q=${querry}`);
   }
 
   //-------------------24-4-24----------------
@@ -69,10 +69,10 @@ export class ProductService {
     }
   }
   addToCart(cartData: Cart) {
-    return this.http.post('http://localhost:3000/carts', cartData);
+    return this.http.post('https://node-ecommerce1.onrender.com/carts', cartData);
   }//
   getCartList(userId: number) {
-    return this.http.get<Product[]>('http://localhost:3000/carts?userId=' + userId,
+    return this.http.get<Product[]>('https://node-ecommerce1.onrender.com/carts?userId=' + userId,
       { observe: 'response' }).subscribe((result) => {
         console.log(result);
 
@@ -83,26 +83,26 @@ export class ProductService {
   }//
 
   removeToCarts(cardId: number) {
-    return this.http.delete(`http://localhost:3000/carts/${cardId}`);
+    return this.http.delete(`https://node-ecommerce1.onrender.com/carts/${cardId}`);
   }//
 
   currentCart() {
     let userStore = localStorage.getItem('user');
     let userData = userStore && JSON.parse(userStore);
-    return this.http.get<Cart[]>('http://localhost:3000/carts?userId' + userData.id)
+    return this.http.get<Cart[]>('https://node-ecommerce1.onrender.com/carts?userId' + userData.id)
   }
   orderNow(data: order) {
-    return this.http.post('http://localhost:3000/orders', data);
+    return this.http.post('https://node-ecommerce1.onrender.com/orders', data);
   }//
   orderList() {
     let userStore = localStorage.getItem('user');
     let userData = userStore && JSON.parse(userStore);
     //console.log(userData.id);
-    return this.http.get<order[]>('http://localhost:3000/orders?id ' + userData.id);
+    return this.http.get<order[]>('https://node-ecommerce1.onrender.com/orders?id ' + userData.id);
   }//
 
   deleteCartItems(cartId: number) {
-    return this.http.delete('http://localhost:3000/carts/'+cartId,{observe:'response'}).subscribe((result) => {
+    return this.http.delete('https://node-ecommerce1.onrender.com/carts/'+cartId,{observe:'response'}).subscribe((result) => {
       if (result) {
         this.cardData.emit([]);
       }
@@ -110,7 +110,7 @@ export class ProductService {
   }
 
   cancleOrder(orderId:number){
-    return this.http.delete(`http://localhost:3000/orders/${orderId}`);
+    return this.http.delete(`https://node-ecommerce1.onrender.com/orders/${orderId}`);
   }//
 }
 
