@@ -1,0 +1,276 @@
+{
+  "seller": [
+    {
+      "id": "a3a5",
+      "name": "pranav kewate",
+      "password": "Pass22113@12",
+      "email": "pranav@gmail.com"
+    },
+    {
+      "id": "7d3c",
+      "name": "john Alexa",
+      "password": "Kuah&6@12",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "bb6d",
+      "name": "kumal Saxena",
+      "password": "OUnisakU&6@12",
+      "email": "kunal@gmail.com"
+    },
+    {
+      "id": "6140"
+    },
+    {
+      "id": "7604"
+    },
+    {
+      "id": "5b61"
+    },
+    {
+      "id": "fbb9"
+    },
+    {
+      "id": "5681"
+    },
+    {
+      "id": "a0cd"
+    },
+    {
+      "id": "fc15"
+    },
+    {
+      "id": "7565"
+    },
+    {
+      "id": "0dce"
+    },
+    {
+      "id": "db5c"
+    },
+    {
+      "id": "a684"
+    },
+    {
+      "id": "022a",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "0d68",
+      "name": "admin",
+      "password": "sgEgd",
+      "email": "sdfsddsf@gmal.com"
+    },
+    {
+      "id": "5c9e",
+      "name": "Pete",
+      "password": "PERNS",
+      "email": "peter@test.com"
+    },
+    {
+      "id": "6d8c",
+      "name": "admin",
+      "password": "sa",
+      "email": "asd"
+    },
+    {
+      "id": "003c",
+      "name": "admin",
+      "password": "asd",
+      "email": "asdsa"
+    },
+    {
+      "id": "ccd2",
+      "name": "admin1",
+      "password": "Pass@1234",
+      "email": "pranavkewate7820gmail.com"
+    },
+    {
+      "id": "12dc",
+      "name": "deol sunny",
+      "password": "Devol@3289&hsy",
+      "email": "deol@test.com"
+    },
+    {
+      "id": "4ead",
+      "name": "admin",
+      "password": "as",
+      "email": "pranavkewate7820gmail.com"
+    },
+    {
+      "id": "9600",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "b0eb",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "4e6f",
+      "name": "mayur",
+      "password": "mayur@123",
+      "email": "mayur@gmail.com"
+    },
+    {
+      "id": "eeed",
+      "name": "mayur",
+      "password": "mayur@123",
+      "email": "mayur@gmail.com"
+    },
+    {
+      "id": "3f51",
+      "name": "mayur",
+      "password": "mayur@123",
+      "email": "mayur@gmail.com"
+    },
+    {
+      "id": "2536",
+      "name": "mayur",
+      "password": "mayur@gm",
+      "email": "mayur@gmail.com"
+    },
+    {
+      "id": "cf5b",
+      "name": "mayur12",
+      "password": "mayur@gm",
+      "email": "mayur@gmail.com"
+    },
+    {
+      "id": "27ec",
+      "name": "Pranav Kewate",
+      "password": "Pass1234@2345",
+      "email": "pranavkewate7820@gmail.com"
+    },
+    {
+      "id": "5b71",
+      "name": "Kajal",
+      "password": "Kajal@123",
+      "email": "kajal@gmail.com"
+    },
+    {
+      "id": "ffca",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "84dc",
+      "name": "admin",
+      "password": "Pass@1234",
+      "email": "sdfsddsf@gmal.com"
+    },
+    {
+      "id": "5c64",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "771d",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "b681",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "7357",
+      "name": "pranav Kewate",
+      "password": "pass",
+      "email": "pranavkewate7820@gmail.com"
+    },
+    {
+      "id": "6fbc",
+      "name": "pranav",
+      "password": "admin",
+      "email": "pranavkewate7820@gmail.com"
+    },
+    {
+      "id": "f5a8",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "6c8d",
+      "name": "meghesh",
+      "password": "admin",
+      "email": "meghesh@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "I Phone -12",
+      "price": 100000,
+      "color": "black",
+      "category": "mobile",
+      "description": "camera is having fantastic feature",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/au/2401/gallery/au-galaxy-s24-490015-sm-s921blbfats-thumb-539371785?$344_344_PNG$",
+      "id": "31e1"
+    },
+    {
+      "name": "laptop -12",
+      "price": "210009",
+      "color": "white",
+      "category": "laptop",
+      "description": "camera is having fantastic feature",
+      "image": "https://www.bhphotovideo.com/images/images2500x2500/Apple_Z0GP_0002_17_MacBook_Pro_Notebook_685887.jpg",
+      "id": "7ce3"
+    },
+    {
+      "name": "laptop -Asus",
+      "price": "498000",
+      "color": "blue",
+      "category": "l",
+      "description": "This is newest laptop ",
+      "image": "./assets/images/box2_image.jpg",
+      "id": "d3c5"
+    },
+    {
+      "name": "laptop -Think Pad ",
+      "price": "498000",
+      "color": "blue",
+      "category": "lap",
+      "description": "camera is having fantastic feature",
+      "image": "./assets/images/box3_image.jpg",
+      "id": "dffd"
+    },
+    {
+      "id": "37df",
+      "name": "laptop -Dell",
+      "price": 129999,
+      "color": "pink",
+      "category": "laptop",
+      "description": "camera is having fantastic feature",
+      "image": "./assets/images/box5_image.jpg"
+    },
+    {
+      "id": "a35f",
+      "name": "Vivo v20",
+      "price": 129999,
+      "color": "green",
+      "category": "laptop",
+      "description": "camera is having fantastic feature",
+      "image": "./assets/images/box6_image.jpg"
+    },
+    {
+      "id": "ca22",
+      "name": "laptop -Dell",
+      "price": 129999,
+      "color": "green",
+      "category": "laptop",
+      "description": "camera is having fantastic feature",
+      "image": "./assets/images/box5_image.jpg"
+    }
+  ]
+}

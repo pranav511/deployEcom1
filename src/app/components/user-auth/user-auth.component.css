@@ -1,0 +1,31 @@
+.user-auth h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: black;
+}
+.user-signup p a , .user-login p a{
+    /* margin-top: 20px; */
+    color: black;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+}
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+    text-align: center;
+}
+.form-button{
+    margin-bottom: 20px;
+}
+.err-p{
+    margin-top: -40px;
+    color:red;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.common-form{
+    margin-top: -30px;
+}

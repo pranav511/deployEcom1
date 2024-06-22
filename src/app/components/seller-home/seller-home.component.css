@@ -1,0 +1,45 @@
+.product-list{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+table{
+    text-align: left;
+    color:black;
+    border-collapse:collapse ;
+}
+table th{
+    text-align: center;
+}
+table td, table th{
+    border:1px solid black;
+    padding: 10px;
+    min-height: 160px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.update-icon{
+    color: grey;
+    margin-left: 10px;
+}
+.delete-icon{
+    color: red;
+    margin-left: 15px;
+}
+
+.icon-set{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

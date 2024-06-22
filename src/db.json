@@ -1,0 +1,568 @@
+{
+  "sellers": [
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 2
+    },
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 3
+    },
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 4
+    },
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 5
+    },
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 6
+    },
+    {
+      "name": "mayur",
+      "email": "mayur@test.com",
+      "password": "admin",
+      "id": 7
+    },
+    {
+      "name": "meghesh",
+      "email": "meghesh@gmail.com",
+      "password": "admin",
+      "id": 8
+    },
+    {
+      "name": "admin",
+      "email": "admin@test.com",
+      "password": "admin",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "name": " iQOO Z9 5G",
+      "price": "19999",
+      "color": " Brushed Green ",
+      "category": "mobile",
+      "description": " Powered by MediaTek Dimensity 7200 built on flagship grade TSMC 2nd Gen 4nm process with a clock speed of 2.8GHz",
+      "image": "https://m.media-amazon.com/images/I/61pt59LW-lL._SX679_.jpg ",
+      "id": "d3c10"
+    },
+    {
+      "name": "Samsung",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "camera is having fantastic feature",
+      "image": "https://th.bing.com/th/id/OIP.NDgBk6E1G4s-gMto_2hQnAHaHa?w=900&h=900&rs=1&pid=ImgDetMain",
+      "id": "31e1"
+    },
+    {
+      "name": "laptop -12",
+      "price": "210009",
+      "color": "white",
+      "category": "laptop",
+      "description": "camera is having fantastic feature",
+      "image": "https://www.bhphotovideo.com/images/images2500x2500/Apple_Z0GP_0002_17_MacBook_Pro_Notebook_685887.jpg",
+      "id": "7ce3"
+    },
+    {
+      "name": "Samsung",
+      "price": 129999,
+      "color": "nevyblue",
+      "category": "mobile",
+      "description": "camera is having fantastic feature",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/au/2401/gallery/au-galaxy-s24-490015-sm-s921blbfats-thumb-539371785?$344_344_PNG$",
+      "id": "4OrH2iP"
+    },
+    {
+      "name": "laptop -Asus",
+      "price": "498000",
+      "color": "blue",
+      "category": "refrigarator",
+      "description": "This is newest laptop ",
+      "image": "./assets/images/box2_image.jpg",
+      "id": "d3c5"
+    },
+    {
+      "name": "realme NARZO Pro 5G",
+      "price": "19999",
+      "color": "Glass Green",
+      "category": "refrigarator",
+      "description": "50 Mp flagship sony IMx890 Night version camera with OIS, fast and long lasting battery ",
+      "image": "https://m.media-amazon.com/images/I/7145VyGLXyL._SX679_.jpg ",
+      "id": "d3c6"
+    },
+    {
+      "name": " Nord CE 3 Lite 5G",
+      "price": "17999",
+      "color": "Cromatic Gray",
+      "category": "refrigarator",
+      "description": " 108 MP Main Camera with EIS; 2MP Depth-Assist Lens and 2MP Macro Lens; Front (Selfie) Camera: 16MP ",
+      "image": "https://m.media-amazon.com/images/I/61LB+d0vheL._SX679_.jpg",
+      "id": "d3c7"
+    },
+    {
+      "name": " Samsung Galaxy 5G",
+      "price": "89999",
+      "color": "Amber yellow",
+      "category": "refrigarator",
+      "description": " Easy to grip, Satisfying to hold. With their unified design and satin finish, Galaxy S24 feels as smooth as it looks. ",
+      "image": "https://m.media-amazon.com/images/I/71o99NYxvVL._SX679_.jpg ",
+      "id": "d3c8"
+    },
+    {
+      "name": " Redmi 13C",
+      "price": "7799",
+      "color": "Stardust Black",
+      "category": "refrigarator",
+      "description": " High performance MediaTek G85 ; Enhance gaming with 1GHz GPU | 8GB of RAM including 4GB virtual | 6.74 HD+ 90Hz display with Corning Gorilla Glass 3 Protection | 50MP AI Triple camera |Fast Side fingerprint | 5000mAh Battery",
+      "image": "https://m.media-amazon.com/images/I/71d1ytcCntL._SX679_.jpg ",
+      "id": "d3c9"
+    },
+    {
+      "name": " Redmi Note 13 5G ",
+      "price": "17999",
+      "color": " Arctic White ",
+      "category": "refrigarator",
+      "description": "Display: 6.67 FHD+ pOLED (1080x2400) Ultra-narrow bezels Display with 120Hz Refresh rate; 1000nits peak brightness; Corning Gorilla Glass 5 Display Protection",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._SX679_.jpg ",
+      "id": "d3c11"
+    },
+    {
+      "name": " Samsung Galaxy 5G ",
+      "price": "23998 ",
+      "color": "ICY Blue",
+      "category": "refrigarator",
+      "description": "Triple camera setup-64MP (F 1.8) main camera + 12MP (F2.2) Ultra wide camera+ 5MP (F2.4) depth camera 32MP (F2.2) front camera ",
+      "image": "https://m.media-amazon.com/images/I/81-tqKsrTuL._SX679_.jpg ",
+      "id": "d3c12"
+    },
+    {
+      "name": " Itel P55 5G ",
+      "price": "10499",
+      "color": "Mint Green",
+      "category": "refrigarator",
+      "description": "Powerful 5G with NRCA 6GB RAM+128GB ROM, Upto 12GB RAM with Memory Fusion Dimensity 6080 90Hz 6.6 HD+ IPS Display UMCP Storage Integrated Aivana Chat GPT Assistant 180 Hz Touch Sampling Rate",
+      "image": "https://m.media-amazon.com/images/I/710hGbhtOJL._SX679_.jpg ",
+      "id": "d3c13"
+    },
+    {
+      "name": " Redmi 12 ",
+      "price": "11999",
+      "color": "Moonston Silver",
+      "category": "refrigarator",
+      "description": " Snapdragon 4 Gen 2 Mobile Platform : Power efficient 4nm architecture | 8GB of RAM including 4GB Virtual ",
+      "image": "https://m.media-amazon.com/images/I/61SmnheBBRL._SX679_.jpg ",
+      "id": "d3c14"
+    },
+    {
+      "name": " Redmi Note 13 5G",
+      "price": "17998",
+      "color": "Prism Gold",
+      "category": "refrigarator",
+      "description": " Display 6.67 FHD+ pOLED (1080x2400) Ultra-narrow bezels Display with 120Hz Refresh rate; 1000nits peak brightness; Corning Gorilla Glass 5 Display Protection ",
+      "image": "https://m.media-amazon.com/images/I/710bX+jrz-L._SX679_.jpg",
+      "id": "d3c15"
+    },
+    {
+      "name": " Boat Rockerz 245",
+      "price": "899",
+      "color": "Active black",
+      "category": "refrigarator",
+      "description": " Long playtime: Watch your comfort movies and web series on repeat with the boAt Rockerz 245V2 Pro Neckband Earphones. Lending up to 30 hours of performance, these earphones are the perfect audio accessory for heightened relaxation. ",
+      "image": "https://m.media-amazon.com/images/I/61T1Z4mwdgL._SX679_.jpg",
+      "id": "d3c16"
+    },
+    {
+      "name": " Boat Airdopes 141",
+      "price": "999",
+      "color": "Bold Black",
+      "category": "refrigarator",
+      "description": " Playback:Enjoy an extended break on weekends with your favourite episodes on stream, virtue of a playback time of up to 42 hours including the 6 hours nonstop playtime for earbuds.",
+      "image": "https://m.media-amazon.com/images/I/61KNJav3S9L._SX679_.jpg",
+      "id": "d3c17"
+    },
+    {
+      "name": " boAt Rockerz 450",
+      "price": "1699",
+      "color": "Lucious Black",
+      "category": "refrigarator",
+      "description": " playback:It provides a massive battery backup of upto 15 hours for a superior playback time. Charging Time : 3 Hours ,Drivers- Its 40mm dynamic drivers help pump out immersive HD audio all day long",
+      "image": "https://m.media-amazon.com/images/I/51xxA+6E+xL._SX679_.jpg",
+      "id": "d3c18"
+    },
+    {
+      "name": " Noise Bud N1",
+      "price": "1299",
+      "color": "Green",
+      "category": "refrigarator",
+      "description": "Up to 40-hour playtime: Dive into a marathon of music with an incredible 40-hour playtime.",
+      "image": "https://m.media-amazon.com/images/I/61g3HFZ59yL._SX679_.jpg",
+      "id": "d3c19"
+    },
+    {
+      "name": " Noise Pure pods",
+      "price": "2999",
+      "color": "Prism Gold",
+      "category": "refrigarator",
+      "description": " AirWave technology: Experience superior sound with precise air conduction mechanisms that deliver rich audio right into your ear. ",
+      "image": "https://m.media-amazon.com/images/I/61IKUYZYfrL._SX679_.jpg",
+      "id": "d3c20"
+    },
+    {
+      "name": " pTron",
+      "price": "699",
+      "color": "Prism Gold",
+      "category": "refrigarator",
+      "description": " Tangent Play Open-ear wireless headphones are more comfortable to wear for long hours, as they do not create any pressure in the ears | Ultra-Lightweight, just weighing 20 gms.",
+      "image": "https://m.media-amazon.com/images/I/517l6QHzWxL._SX679_.jpg",
+      "id": "d3c21"
+    },
+    {
+      "name": "Redmi Buds 4 Active",
+      "price": "1099",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " The powerful 12mm Bass Pro drivers, designed to deliver an immersive audio experience with deep, rich bass and crisp, clear highs",
+      "image": "https://m.media-amazon.com/images/I/61dgg4KIRzL._SX679_.jpg",
+      "id": "d3c22"
+    },
+    {
+      "name": " Realme pods",
+      "price": "2299",
+      "color": "Stylish Black",
+      "category": "refrigarator",
+      "description": " 30dB Active Noise Cancellation, Upto 40 Hours Total Playback with Fast-charging support of 10 min charging for 7 hours playback",
+      "image": "https://m.media-amazon.com/images/I/61ZEQXGTepL._SX679_.jpg",
+      "id": "d3c23"
+    },
+    {
+      "name": " onePlus pods",
+      "price": "4960",
+      "color": "Pearl white",
+      "category": "refrigarator",
+      "description": " Active Noise Cancellation: Up to 40 dB noise cancelling with 2 modes - Faint (+/- 25dB) & Extreme (+/- 40 dB) through manual adjustment via OnePlus mobile or HeyMelody App. ",
+      "image": "https://m.media-amazon.com/images/I/419Pe9doxrL._SX679_.jpg",
+      "id": "d3c24"
+    },
+    {
+      "name": " Sony",
+      "price": "29990",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Industry Leading noise cancellation-two processors control 8 microphones for unprecedented noise cancellation. With Auto NC Optimizer, noise cancelling is automatically optimized based on your wearing conditions and environment. ",
+      "image": "https://m.media-amazon.com/images/I/61vJtKbAssL._SX679_.jpg",
+      "id": "d3c25"
+    },
+    {
+      "name": " boAt",
+      "price": "999",
+      "color": "Blue",
+      "category": "refrigarator",
+      "description": "Stone 180 comes equipped with 1.75 Dynamic Drivers for powerful immersive sound",
+      "image": "https://m.media-amazon.com/images/I/71EUBuY6bIL._SX679_.jpg",
+      "id": "d3c26"
+    },
+    {
+      "name": " ZEBRONICS",
+      "price": "799",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Call function support with BT connection, Built in rechargeable battery supporting up to 10H* playback",
+      "image": "https://m.media-amazon.com/images/I/71yCNxkT4GL._SX679_.jpg",
+      "id": "d3c27"
+    },
+    {
+      "name": " boAt",
+      "price": "1999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Get ready to be enthralled by the 12W RMS stereo sound on Stone 620 portable wireless speaker. Frequency - 120Hz-20KHz. ",
+      "image": "https://m.media-amazon.com/images/I/61oSoHc7VtL._SX679_.jpg",
+      "id": "d3c28"
+    },
+    {
+      "name": " Mivi soundbar",
+      "price": "5999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Bass and Sound: Get powerful sound in every beat with 200 watts of cinematic bass.",
+      "image": "https://m.media-amazon.com/images/I/71RxG5h8lBL._SX679_.jpg",
+      "id": "d3c29"
+    },
+    {
+      "name": " Sony",
+      "price": "15850",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Dolby Audio : Enjoy dramatic, high-quality surround sound from 5.1 separate audio channels with Dolby Digital.",
+      "image": "https://m.media-amazon.com/images/I/71h7fLNEQPL._SX679_.jpg",
+      "id": "d3c30"
+    },
+    {
+      "name": " ZEBRONICS",
+      "price": "999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Zeb-county is a compact and handy portable speaker that comes with multi-connectivity options like wireless BT/USB/micro SD and AUX. ",
+      "image": "https://m.media-amazon.com/images/I/71wAXhzCmnS._SX679_.jpg",
+      "id": "d3c31"
+    },
+    {
+      "name": " Mivi",
+      "price": "11999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": "Bass and Sound: Experience sound in its purest form in 500 watts with every scene made larger than life. From silent moments to spine-chilling climaxes, feel every beat resonate in the best way possible. ",
+      "image": "https://m.media-amazon.com/images/I/81hvugPCp6L._SX679_.jpg",
+      "id": "d3c32"
+    },
+    {
+      "name": " VW Hunter Bar 160W",
+      "price": "4999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Connect effortlessly with the soundbar's Multi-Connectivity Modes, including AUX, USB, Optical, HDMI, and Coaxial options, ensuring compatibility with a range of devices. ",
+      "image": "https://m.media-amazon.com/images/I/71lVL4Rr-3L._SX679_.jpg",
+      "id": "d3c33"
+    },
+    {
+      "name": " VW Sonic Bar 120W",
+      "price": "3999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Sound with 120 Watt and subwoofer The VW Sonic bar comes with 120 watt RMS sound with a bassful subwoofer. The sound output feels real, thrilling bass provided by the 60Watt Subwoofer. Upgrade your music listening experience with the VW sonic Bar with down-firing subwoofer which provides bold sound to any seat in the room, giving you an audio experience you can truly hear and feel. ",
+      "image": "https://m.media-amazon.com/images/I/71jyt3Rm3bL._SX679_.jpg",
+      "id": "d3c34"
+    },
+    {
+      "name": " Sony",
+      "price": "2999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 60 Hertz | 178 Degree wide viewing angleSubwoofer. Upgrade your music listening experience with the VW sonic Bar with down- ",
+      "image": "https://m.media-amazon.com/images/I/81MRU+3RJLL._SX679_.jpg ",
+      "id": "d3c35"
+    },
+    {
+      "name": " LG",
+      "price": "15990",
+      "color": "Dark Iron Gray",
+      "category": "refrigarator",
+      "description": " Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz, connectivity: 2 HDMI ports to connect set top box, Blu Ray players, gaming console | 1 USB ports to connect hard drives and other USB devices ",
+      "image": "https://m.media-amazon.com/images/I/71kuqRw8L5L._SX679_.jpg ",
+      "id": "d3c36"
+    },
+    {
+      "name": " Samsung",
+      "price": "14990",
+      "color": "Glossy Black",
+      "category": "refrigarator",
+      "description": " Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz, onnectivity: 2 HDMI ports to connect set top box, Blu Ray players, gaming console | 1 USB ports to connect hard drives and other USB devices ",
+      "image": "https://m.media-amazon.com/images/I/71S8iUPW9bL._SX679_.jpg ",
+      "id": "d3c37"
+    },
+    {
+      "name": " Redmi",
+      "price": "12499",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz | 178 wide viewing angle , connectivity: Dual Band Wi-Fi (2.4 GHz/ 5 GHz) | 2 HDMI ports to connect set top box, gaming consoles, DVD or Blu-ray Players | 2 USB ports to connect hard drives and other USB devices | ARC | Bluetooth 5.0 | Ethernet | 3.5mm earphone Jack ",
+      "image": "https://m.media-amazon.com/images/I/819Lw2PE8tL._SX679_.jpg ",
+      "id": "d3c38"
+    },
+    {
+      "name": " MI",
+      "price": "12990",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Resolution : HD Ready (1366 x 768) Resolution | Refresh Rate : 60 Hertz | Viewing angle : 178 degrees, connectivity: Dual Band Wi-Fi | 2 HDMI ports to connect set top box, Blu-ray speakers, or gaming console | 2 USB ports to connect hard drives and other USB devices | Bluetooth 5.0 | 3.5 mm jack | AV port| Ethernet ",
+      "image": "https://m.media-amazon.com/images/I/713A5VksK6L._SX679_.jpg ",
+      "id": "d3c39"
+    },
+    {
+      "name": " Samsung",
+      "price": "30990",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Resolution : 4K Ultra HD (3840 x 2160) | Refresh Rate : 50 Hertz, connectivity : 3 HDMI ports to connect set top box or gaming console | 1 USB ports to connect hard drives or other USB devices | Ethernet | Wi-fi | Bluetooth ",
+      "image": "https://m.media-amazon.com/images/I/81s35LoX36L._SX679_.jpg ",
+      "id": "d3c40"
+    },
+    {
+      "name": " Acer",
+      "price": "24999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " Resolution: 4K Ultra HD (3840x2160) | Refresh Rate: 60 Hertz | 178 Degree wide viewing angle , connectivity: Dual band Wifi | 2-way Bluetooth | HDMI ports 2.0 x 3 (HDMI 1 supports eARC) to connect personal computer, laptop, set top box, Blu-ray speakers or a gaming console | USB ports 2.0 x 2 to connect hard drives or other USB device ",
+      "image": "https://m.media-amazon.com/images/I/81QigBy4kPL._SX679_.jpg ",
+      "id": "d3c41"
+    },
+    {
+      "name": " Xiaomi",
+      "price": "31999",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 60 hertz | 178° wide viewing angle, connectivity: Dual Band Wi-Fi (2.4 GHz/ 5 GHz) | 3 HDMI ports to connect latest gaming consoles, set top box, Blu-ray Players | 2 USB ports to connect hard drives and other USB devices | ALLM | eARC | Bluetooth 5.0 | Optical | Ethernet | 3.5mm earphone Jack ",
+      "image": "https://m.media-amazon.com/images/I/81UT46-gwRL._SX679_.jpg ",
+      "id": "d3c42"
+    },
+    {
+      "name": " LG",
+      "price": "15490",
+      "color": "Black",
+      "category": "refrigarator",
+      "description": " resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz, connectivity: Wi-Fi (Built-in) | 3 HDMI ports to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices | eARC | Bluetooth 5.0 | Optical | Ethernet ",
+      "image": "https://m.media-amazon.com/images/I/71oJI9KEUPL._SX679_.jpg ",
+      "id": "d3c43"
+    },
+    {
+      "name": " LG",
+      "price": "25990",
+      "color": "Gray",
+      "category": "refrigarator",
+      "description": " For the products manufactured from Jan 2023, Capacity will be attributed basis the total volume and not the gross volume ",
+      "image": "https://m.media-amazon.com/images/I/71DehhcXtvL._SX679_.jpg",
+      "id": "d3c44"
+    },
+    {
+      "name": " LG",
+      "price": "17490",
+      "color": "Gray",
+      "category": "refrigarator",
+      "description": " Direct Cool Refrigerator: Economical and stylish, capacity 185 liters: Suitable for families with 2 to 3 members/ Couples / Bachelors | Freezer capacity: 16 L, Fresh food capacity: 169 L ",
+      "image": "https://m.media-amazon.com/images/I/61-mD1UtKCL._SX679_.jpg",
+      "id": "d3c45"
+    },
+    {
+      "name": " Whirlpool",
+      "price": "11990",
+      "color": "Blue",
+      "category": "refrigarator",
+      "description": " Single door refrigerator with Intellisense Inverter Technology, capacity: 184 liters for families with 2-3 members",
+      "image": "https://m.media-amazon.com/images/I/51rI+jSqx5L._SY879_.jpg ",
+      "id": "d3c46"
+    },
+    {
+      "name": " Samsung",
+      "price": "16390",
+      "color": "Red, Camellia purple",
+      "category": "refrigarator",
+      "description": " Direct Cool Refrigerator: Stylish Single Door Refrigerator with Modern Camellia Purple pattern. Enjoy powerful cooling that can last longer",
+      "image": "https://m.media-amazon.com/images/I/61RJPjzX0UL._SY879_.jpg",
+      "id": "d3c47"
+    },
+    {
+      "name": " Haier",
+      "price": "14790",
+      "color": "Dazzle steel",
+      "category": "refrigarator",
+      "description": " direct-cool Refrigerator: Economical and Stylish with External Bar Handle, Capacity 190 Litres: Suitable for families with 2 to 3 members or bachelors | Freezer Capacity: 14 Ltr , Fresh Food Capacity: 176 Ltr",
+      "image": "https://m.media-amazon.com/images/I/41M+c8X6RjL._SX679_.jpg",
+      "id": "d3c48"
+    },
+    {
+      "name": " Haier",
+      "price": "10990",
+      "color": "Red steel",
+      "category": "refrigarator",
+      "description": " direct-cool Refrigerator: Economical and Stylish with External Bar Handle capacity 165 Litres",
+      "image": "https://m.media-amazon.com/images/I/61C9YPXohSL._SX679_.jpg",
+      "id": "d3c49"
+    },
+    {
+      "name": " Samsung",
+      "price": "15690",
+      "color": "Camellia Blue",
+      "category": "refrigarator",
+      "description": " direct Cool Refrigerator: Stylish Single Door Refrigerator with Modern Camellia Blue pattern. Enjoy powerful cooling that can last longer, capacity 183 liters: Suitable for families with 2 to 3 members",
+      "image": "https://m.media-amazon.com/images/I/71ecWAy-JuL._SY879_.jpg",
+      "id": "d3c50"
+    },
+    {
+      "name": " Godrej",
+      "price": "12590",
+      "color": "Pep Blue",
+      "category": "refrigarator",
+      "description": " Direct Cool Refrigerator: Economical and stylish, direct- Cool Refrigerator with Capacity: 180 litres, suitable for a small family ",
+      "image": "https://m.media-amazon.com/images/I/61D8-Azaq7L._SX679_.jpg",
+      "id": "d3c51"
+    },
+    {
+      "name": " LG",
+      "price": "20690",
+      "color": " Blue Euphoria",
+      "category": "refrigarator",
+      "description": " Direct Cool Refrigerator: Economical and stylish, capacity 185 liters: Suitable for families with 2 to 3 members/ Couples / Bachelors | Freezer capacity: 16 L, Fresh food capacity: 169 L",
+      "image": "https://m.media-amazon.com/images/I/71Q46li47mL._SX679_.jpg",
+      "id": "d3c52"
+    }
+  ],
+  "users": [
+    {
+      "name": "Pranav Kewate",
+      "email": "pranav@test.com",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "name": "meghesh",
+      "email": "meghesh@gmail.com",
+      "password": "admin",
+      "id": 2
+    },
+    {
+      "name": "pawan lande",
+      "email": "pawanlande@gmail.com",
+      "password": "admin",
+      "id": 3
+    },
+    {
+      "name": "admin",
+      "email": "admin@test.com",
+      "password": "admin",
+      "id": 4
+    },
+    {
+      "name": "Sham Thakur",
+      "email": "sham@test.com",
+      "password": "admin",
+      "id": 5
+    },
+    {
+      "name": "pawan lande",
+      "email": "lande@test.com",
+      "password": "admin",
+      "id": 6
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "email": "pawanlande@gmail.com",
+      "address": "Kelwad, Ward No 05 Malipula",
+      "contact": "9960512466",
+      "totalPrice": 44097,
+      "userId": 6,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #0D1B2A;
+    height: 70px;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.footer ul li a{
+    color: #E0E1DD;
+    text-decoration: none;
+}
+.footer li a{
+    color:#E0E1DD;;
+    cursor: pointer;
+}
+.footer li a:hover{
+    color:white;;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+p{
+    color:#E0E1DD;
+}

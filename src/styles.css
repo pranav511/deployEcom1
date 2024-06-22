@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+
+}
+body { background-color: #778DA9; }/*#1B2633*/
+.container{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.common-form{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.common-form a{
+    text-decoration: none;
+}
+.form-input{
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    color:black;
+    border-radius: 5px;
+}
+.form-button{
+    height: 35px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 15px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.form-button:hover{
+    background-color: black;
+    color:white;
+    color: white;
+}
+.login-p{
+    color: red;
+}
+.msg-p{
+    color:green;
+    text-align: center;
+}
+.err-p{
+    /* margin-top: -30px; */
+    color:red;
+    text-align: center;
+}
+.product-list table{
+    width: 100%;
+}
+.carousel-caption{
+    background-color: #0c0f1036;
+    border-radius:5px ;
+
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #0c0f1036;
+}
+button:disabled{
+    cursor: not-allowed;
+}
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+    text-align: center;
+}
+.user-auth, .seller-auth{
+margin: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* width: 70%; */
+
+}

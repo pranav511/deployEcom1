@@ -1,0 +1,27 @@
+<!-- <div class="row search-item">
+    <div class="col-sm-3">
+        <img src="https://images.samsung.com/is/image/samsung/p6pim/au/2401/gallery/au-galaxy-s24-490015-sm-s921blbfats-thumb-539371785?$344_344_PNG$" alt="">
+    </div>
+    <div class="col-sm-8 details">
+        <h6>Product Name</h6>
+        <p><b>Price:10000</b></p>
+        <p><span>Color:red</span><span>Category Mobile</span></p>
+        <p>A product search UI</p>
+    </div>
+</div> -->
+
+<div class="row search-item" *ngFor="let product of searcProduct">
+    <div class="col-sm-3 bottom">
+      <a routerLink="/details/{{product.id}}"><img src="{{product.image}}" alt=""></a>
+    </div>
+    <div class="col-sm-8 details">
+        <a routerLink="/details/{{product.id}}"><h6> {{product.name}}</h6></a>
+        <p><b>Price:{{product.price}}</b></p>
+        <p><span>Color:{{product.color}}</span><span>Category: {{product.category}}</span></p>
+        <p>{{product.description}}</p>
+    </div>
+</div>
+<br><br><br>
+
+
+

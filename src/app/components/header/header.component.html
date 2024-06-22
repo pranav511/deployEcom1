@@ -1,0 +1,45 @@
+<nav class="nav">
+    <div class="nav-logo">
+        <h1><a routerLink="/">E-Commerce</a></h1>
+    </div>
+    <div class="nav-search" *ngIf="menuType!=='seller'">
+        <select name="" id="" class="option-cat">
+            <option value="">All</option>
+            <option value="">Html</option>
+            <option value="">Css</option>
+        </select>
+        <input class="search-input" #searchInput type="text" (keyup)="search($event)" (blur)="hideSearch()"
+            placeholder="Search for Product">
+        <button class="search-icon" (click)="submitSearch(searchInput.value)" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <ul class="suggested-result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a href="">{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div [ngSwitch]="menuType" class="switch-header">
+        <ul *ngSwitchCase="'default'">
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/sell-auth">Seller</a></li>
+            <li><a routerLink="user-auth">Login/SignUp</a></li>
+            <li><a>Cart({{cartItem}})</a></li>
+        </ul>
+        <ul *ngSwitchCase="'user'">
+            <li><a routerLink="/sell-auth">Seller</a></li>
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="user-auth">{{userName | titlecase}}</a></li>
+            <li><a routerLink="/my-orders">My Order</a></li>
+            <li><a (click)="UserLogout()">Logout</a></li>
+            <li><a routerLink="cart-page">Cart({{cartItem}})</a></li>
+        </ul>
+        <ul *ngSwitchCase="'seller'">
+            <li><a routerLink="/sell-auth">Product List</a></li>
+            <li><a routerLink="/seller-add-product">Add Product</a></li>
+            <li><a (click)="sellerLogout()">Logout</a></li>
+            <li><a>{{sellerName | titlecase}}</a></li>
+        </ul>
+    </div>
+
+</nav>

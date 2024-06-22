@@ -1,0 +1,17 @@
+.checkout{
+    margin-top: 80px;
+}
+.checkout h1{
+    text-align: center;
+    color: black;
+    margin:50px 50px;
+}
+.shipping-address h3{
+    text-align: center;
+    color: black;
+    margin: 15px 15px;
+}
+.payment h3{
+    text-align: center;
+    margin-top: 15px;
+}
